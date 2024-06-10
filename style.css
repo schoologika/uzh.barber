@@ -1,0 +1,146 @@
+body {
+    font-family: Verdana;
+    background-color: #CFCED0;
+    cursor: default;
+}
+ nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 10px;
+            background-color: rgba(33, 0, 65, 0.307);
+            padding: 7px;
+            margin-top: 5px;
+            border-radius: 10px;
+
+        }
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 30, 73);
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+     cursor: help;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    text-align: start;
+}
+
+.catalog {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.principles {
+    width: 700px;
+    padding: 30px;
+    text-align: center;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.principle {
+    width: 550px;
+    display: flex;
+    margin: 30px;
+    height: 80px;
+}
+.principle img{
+    border-radius: 1000px;
+    width: 80px;
+    height: 80px;
+    
+}
+.principle p{
+    background-color: #594C61;
+    width: 500px;
+}
+.slogan {
+    padding: 30px;
+    color: mediumblue;
+    margin-left: 150px;
+}
+
+.slogan_img {
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+.slogan_text {
+    float:left;
+    color: mediumblue;
+    margin: 20px;
+}
+
+footer {
+    background-color: #756B7B;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    cursor: crosshair;
+}
+header{
+    background-color: #756B7B;
+    text-align: center;
+    padding: 60px;
+}
+.am-n{
+    display: flex;
+}
+.a{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.zakladki{
+    text-align: center;
+    padding: 20px;
+    width: 50px;
+}
+footer{
+    padding: 20px;
+}
+img{
+    
+}
